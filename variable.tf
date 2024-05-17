@@ -132,7 +132,7 @@ variable "managed_rules_selector_match_operator1"{
 }
 variable "managed_rules_match_variable2"{
   type=string
-  default=""RequestCookieNames"
+  default="RequestCookieNames"
 }
 variable "managed_rules_selector2"{
   type=string
