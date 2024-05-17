@@ -18,7 +18,7 @@ variable "location"{
   type=string
   default="West Europe"
 }
-variable "custon_rule_name1"{
+variable "custom_rule_name1"{
   type=string
   default="Rule1"
 }
