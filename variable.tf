@@ -50,7 +50,7 @@ variable "action"{
   type=string 
   default="Block"
 }
-variable "custon_rule_name2"{
+variable "custom_rule_name2"{
   type=string
   default="Rule2"
 }
