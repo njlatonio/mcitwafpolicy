@@ -21,7 +21,7 @@ resource "azurerm_web_application_firewall_policy" "example" {
 
   custom_rules {
     name      = var.custom_rule_name1
-    priority  = var.custom_rule_prioriy1
+    priority  = var.custom_rule_priority1
     rule_type = var.custom_rule_type1
 
     match_conditions {
